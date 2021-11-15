@@ -1,16 +1,7 @@
 import './App.css';
 import React, {useState} from 'react';
+import Page from "./Page";
 // import axios from 'axios';
-
-function Page(props) {
-    return (
-        <div>
-            <h3>{props.title}</h3>
-            <p>{props.text}</p>
-            <img src={props.img}/>
-        </div>
-    )
-}
 
 function App() {
     const [books, setBooks] = useState([]);
@@ -43,12 +34,18 @@ function App() {
     }
 
   return (
-    <div>
-      <h1>Hello World</h1>
-        <input type="text" onChange={e => inputChange(e.target.value)}/>
-        <button onClick={handler}>Press!</button>
-        <button onClick={view}>View</button>
-        {books.map((i, index) => {
+    <div className='container'>
+        <div className="searchBlock">
+            <div className="block">
+                <p className="title">Book Searcher!</p>
+                <div className="searcherBlock">
+                    <input type="text" onChange={e => inputChange(e.target.value)}/>
+                    <button onClick={handler}>Press!</button>
+                    <button onClick={view}>View</button>
+                </div>
+            </div>
+        </div>
+        {books.map((i) => {
             return (
                 <div>
                     <Page
