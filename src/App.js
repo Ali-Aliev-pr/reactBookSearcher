@@ -9,7 +9,7 @@ function App() {
     const [inputText, setInputText] = useState('');
 
     const handler = () => {
-        fetch('https://www.googleapis.com/books/v1/volumes?q='+inputText+'t&key=AIzaSyDb600b-TCHDVm1wRp1wmLBY9GUmnj0GKI')
+        fetch('https://www.googleapis.com/books/v1/volumes?q='+inputText+'t&key=AIzaSyDb600b-TCHDVm1wRp1wmLBY9GUmnj0GKI'+"&maxResults=40")
             .then(res => res.json())
             .then(item => {
                 let array = [];
@@ -25,9 +25,9 @@ function App() {
             })
     }
 
-    const view = () => {
-        {books.map(i => console.log(i))}
-    }
+    // const view = () => {
+    //     {books.map(i => console.log(i))}
+    // }
 
     const inputChange = (text) => {
         setInputText(text)
@@ -41,7 +41,7 @@ function App() {
                 <div className="searcherBlock">
                     <input type="text" onChange={e => inputChange(e.target.value)}/>
                     <button onClick={handler}>Press!</button>
-                    <button onClick={view}>View</button>
+                    {/*<button onClick={view}>View</button>*/}
                 </div>
             </div>
         </div>
@@ -63,5 +63,3 @@ function App() {
 }
 
 export default App;
-
-// +"&maxResults=40"
