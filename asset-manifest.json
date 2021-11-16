@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactBookSearcher/static/css/main.4bf33474.chunk.css",
+    "main.js": "/reactBookSearcher/static/js/main.ef9bba55.chunk.js",
+    "main.js.map": "/reactBookSearcher/static/js/main.ef9bba55.chunk.js.map",
+    "runtime-main.js": "/reactBookSearcher/static/js/runtime-main.113cb5c8.js",
+    "runtime-main.js.map": "/reactBookSearcher/static/js/runtime-main.113cb5c8.js.map",
+    "static/js/2.7b6765a0.chunk.js": "/reactBookSearcher/static/js/2.7b6765a0.chunk.js",
+    "static/js/2.7b6765a0.chunk.js.map": "/reactBookSearcher/static/js/2.7b6765a0.chunk.js.map",
+    "index.html": "/reactBookSearcher/index.html",
+    "static/css/main.4bf33474.chunk.css.map": "/reactBookSearcher/static/css/main.4bf33474.chunk.css.map",
+    "static/js/2.7b6765a0.chunk.js.LICENSE.txt": "/reactBookSearcher/static/js/2.7b6765a0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactBookSearcher/static/media/bookshelf.f64a507a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.113cb5c8.js",
+    "static/js/2.7b6765a0.chunk.js",
+    "static/css/main.4bf33474.chunk.css",
+    "static/js/main.ef9bba55.chunk.js"
+  ]
+}
