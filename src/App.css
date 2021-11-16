@@ -45,3 +45,13 @@ input {
 button {
     border-radius: 5px;
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 200px;
+}

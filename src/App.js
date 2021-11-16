@@ -9,7 +9,7 @@ function App() {
     const [inputText, setInputText] = useState('');
 
     const handler = () => {
-        fetch('https://www.googleapis.com/books/v1/volumes?q='+inputText+'t&key=AIzaSyDb600b-TCHDVm1wRp1wmLBY9GUmnj0GKI'+"&maxResults=40")
+        fetch('https://www.googleapis.com/books/v1/volumes?q='+inputText+'t&key=AIzaSyDb600b-TCHDVm1wRp1wmLBY9GUmnj0GKI')
             .then(res => res.json())
             .then(item => {
                 let array = [];
@@ -45,19 +45,23 @@ function App() {
                 </div>
             </div>
         </div>
-        {books.map((i) => {
-            return (
-                <div>
-                    <Page
-                        title={i.title}
-                        text={i.description}
-                        img={i.img}
-                    />
-                </div>
-            )
-        } )}
+        <div className="cards">
+            {books.map((i) => {
+                return (
+                    <div>
+                        <Page
+                            title={i.title}
+                            // text={i.description}
+                            img={i.img}
+                        />
+                    </div>
+                )
+            } )}
+        </div>
     </div>
   );
 }
 
 export default App;
+
+// +"&maxResults=40"

@@ -1,11 +1,13 @@
 import React from "react";
+import './page.css';
 
 function Page(props) {
+
     return (
-        <div>
-            <h3>{props.title}</h3>
-            <p>{props.text}</p>
+        <div className="card">
+            {/*<p>{props.text}</p>*/}
             <img src={props.img}/>
+            <p>{props.title}</p>
         </div>
     )
 }
