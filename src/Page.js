@@ -7,6 +7,7 @@ function Page(props) {
         <div className="card">
             {/*<p>{props.text}</p>*/}
             <img src={props.img}/>
+            <hr/>
             <p>{props.title}</p>
         </div>
     )
