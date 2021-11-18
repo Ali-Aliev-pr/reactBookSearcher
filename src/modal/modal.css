@@ -1,0 +1,9 @@
+.modal {
+    /*height: 300px;*/
+    width: 250px;
+    /*background-color: white;*/
+}
+
+.modal__none {
+    display: none;
+}

@@ -25,10 +25,6 @@ function App() {
             })
     }
 
-    // const view = () => {
-    //     {books.map(i => console.log(i))}
-    // }
-
     const inputChange = (text) => {
         setInputText(text)
     }
@@ -51,7 +47,7 @@ function App() {
                     <div>
                         <Page
                             title={i.title}
-                            // text={i.description}
+                            description={i.description}
                             img={i.img}
                         />
                     </div>
