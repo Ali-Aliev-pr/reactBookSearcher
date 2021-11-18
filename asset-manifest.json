@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactBookSearcher/static/css/main.3c990113.chunk.css",
-    "main.js": "/reactBookSearcher/static/js/main.c9aa4aa9.chunk.js",
-    "main.js.map": "/reactBookSearcher/static/js/main.c9aa4aa9.chunk.js.map",
+    "main.js": "/reactBookSearcher/static/js/main.cb07e97d.chunk.js",
+    "main.js.map": "/reactBookSearcher/static/js/main.cb07e97d.chunk.js.map",
     "runtime-main.js": "/reactBookSearcher/static/js/runtime-main.113cb5c8.js",
     "runtime-main.js.map": "/reactBookSearcher/static/js/runtime-main.113cb5c8.js.map",
     "static/js/2.d274a77b.chunk.js": "/reactBookSearcher/static/js/2.d274a77b.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.113cb5c8.js",
     "static/js/2.d274a77b.chunk.js",
     "static/css/main.3c990113.chunk.css",
-    "static/js/main.c9aa4aa9.chunk.js"
+    "static/js/main.cb07e97d.chunk.js"
   ]
 }
